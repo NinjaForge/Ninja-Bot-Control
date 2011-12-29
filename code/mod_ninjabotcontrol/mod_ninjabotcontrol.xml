@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5.0">
+	<name>Ninja Bot Control J!1.5</name>
+	<author>Ricardo Sousa</author>
+	<creationDate>January 2008</creationDate>
+	<copyright>2008 Ricardo Sousa, NinJoomla.com</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>ricardosousa@aiedi.com</authorEmail>
+	<authorUrl>http://www.ninjoomla.com</authorUrl>
+	<version>1.0</version>
+	<description>
+    <![CDATA[
+   <style type="text/css">
+.menu {
+	background: url('../modules/mod_ninjabotcontrol/ninjabotcontrol/ninja/tab.gif') repeat-x #ececec;
+	color:#fff;
+	border:1px solid #333;
+	height:23px;
+	width:auto;
+}
+.menu ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-align:center;}
+.menu li {
+	display:inline;
+	line-height:23px;
+	background:none;
+	padding:0;
+	margin:0;
+	font-size:11px;
+	font-family:arial,verdana,tahoma;
+	padding:4px 5px 6px 5px;
+	cursor:default; }
+
+.menu li.tabactive {
+	color:#fff;
+	text-decoration:none;
+	padding:6px 5px 6px 5px;
+	font-size:11px;
+	font-family:arial,verdana,tahoma;
+	font-weight:bold;
+	position:relative;
+ 	background: #ececec;
+	font-size:11px;
+	color:#333333;
+	font-family:arial,verdana,tahoma;}
+
+
+
+#tabcontent1,#tabcontent2,#tabcontent3,#tabcontent4,#tabcontent5,#tabcontent6,#tabcontent7,#tabcontent8,#tabcontent9,#tabcontent10
+ {
+	background:#FFFFFF;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	width: auto;
+	text-align:center;
+	padding:6px 0px;
+	font-size:12px;
+	margin-bottom:5px;
+    padding-left:5px;}
+
+#tabcontent1 div.moduletable,#tabcontent2 div.moduletable,#tabcontent3 div.moduletable,#tabcontent4 div.moduletable,#tabcontent5 div.moduletable,#tabcontent6 div.moduletable,#tabcontent7 div.moduletable,#tabcontent8 div.moduletable,#tabcontent9 div.moduletable,#tabcontent10 div.moduletable
+{
+margin:5px;
+}
+</style>
+<script type="text/javascript" src="../modules/mod_ninjabotcontrol/ninjabotcontrol/ninja/ninja.js"></script>
+
+<div class="menu">
+<ul>
+<li onclick="easytabs('1', '1');" onfocus="easytabs('1', '1');" onmouseover="return false;"  title="" id="tablink1"><img src="../modules/mod_ninjabotcontrol/ninjabotcontrol/ninja/info.png" width="16" height="16"> General Info</li>
+<li onclick="easytabs('1', '2');" onFocus="easytabs('1', '2');" onmouseover="return false;"  title="" id="tablink2"><img src="../modules/mod_ninjabotcontrol/ninjabotcontrol/ninja/inst.png" width="16" height="16"> Instructions</li>
+<li onclick="easytabs('1', '3');" onFocus="easytabs('1', '3');" onmouseover="return false;"  title="" id="tablink3"><img src="../modules/mod_ninjabotcontrol/ninjabotcontrol/ninja/change.png" width="16" height="16"> Changelog & Version Info</li>
+</ul>
+</div>
+<div id="tabcontent1">
+<p align="center">
+<b><h1>Ninja Bot Control</h1></b></p><br/><p align="center"><img src="../modules/mod_ninjabotcontrol/ninjabotcontrol/ninja/logo.jpg" alt="Ninja Bot Control"></p><br/>
+<p align="left"><b>Created by</b> Ricardo Sousa <br/><br/>
+<b>Released under</b> The GNU GPL Licence <br/><br/>
+<b>Relesed by/Copyright:</b>  <span><h2><a href="http://www.ninjoomla.com">NinJoomla.com</a><br/></h2> To get help from us go to our forum and ask!
+<p align="left"><br/><br/> <b>Did you like this extension?</b> Rate it at extensions.joomla.org <br/><br/>
+<b>Description:</b> <br/>Did you have some protected page you dont want to index in search engines? <br/>
+And you dont have idea what is a robots.txt file and dont want to handle with codes?                     <br/>
+Just use this module...    <br/>
+This module let you block the index of your page in the most popular search engines... <br/>
+Just select the search engine you want to protect and what kind of things you dont want to index... <br/>
+Supported Search Engines:  <br/>
+Google  <br/>
+Yahoo   <br/>
+Ask  <br/>
+MSN/Live   <br/>
+Supported types of Block:     <br/>
+Images Block   <br/>
+Page Block  <br/>
+Cached Pages Block   <br/>
+Follow Link Block   <br/>
+
+     <br/>
+Now its easy to do blocks to robots...
+<br/>
+Try it!
+</p></p></div>
+<div id="tabcontent2">
+There are some guidance that can be useful to you in order to config your module    <br/>
+                <br/>
+<p align="left"><b><h4> Start with this module: </h4></b>     <br/>
+                           <br/>
+
+<b> Robot Selection</b>                                   <br/>
+                                                        <br/>
+1st Select in the "Robot to Block:" field one robot you want to hide your page from. <br/>
+If you want to hide your content from all ROBOTS you select All Bots<br/>
+If you want to add more than one robot but not all you should copy this module and set it with another robot!<br/>                                  <br/>
+                                    <br/>
+<b> Type of Block Selection </b>   <br/>
+                               <br/>
+You have 4 main options for blocks:<br/>
+<b>PAGE</b> - Will block all the page to be indexed<br/>
+<b>FOLLOW LINKS</b> - Will block the index of your page Follow Links<br/>
+<b>CACHED PAGES</b> - Will block the search engine to show a cached copy of your page  <br/>
+<b>IMAGES</b>- Just block images to be indexed  <br/>
+<br/>
+You have to select the type of block you want.  <br/>
+If you just want to add one type of block you musst have all other fields than "Elements to Block 1:" with "Empty" label.  <br/>
+For example if you want to add images block it will look like:    <br/>
+Elements to Block 1:  IMAGES  <br/>
+Elements to Block 2: EMPTY    <br/>
+Elements to Block 3: EMPTY    <br/>
+Elements to Block 4: EMPTY   <br/>
+                         <br/>
+But if you want to add more than one type of block just select them in each field.<br/>
+For example if you want to add FOLLOW Links and CACHED Pages Block it will look like:  <br/>
+Elements to Block 1:  FOLLOW LINKS   <br/>
+Elements to Block 2: CACHED PAGES   <br/>
+Elements to Block 3: EMPTY  <br/>
+Elements to Block 4: EMPTY  <br/>
+Please make sure all the fields than the ones you want to select be: "EMPTY"!       <br/>
+
+                                                      <br/>
+                                                        <br/>
+<b> Publish </b>                                    <br/>
+                                                                        <br/>
+You can publish that module in any position you want. Just make sure that "Show title:" parameter is set to "no"    <br/>
+This module will not produce any visual effect in your website                                                <br/>
+                                              <br/>
+</p></div>
+<div id="tabcontent3">
+<h1><p align="center">Changelog & Version Info</p></h1> <br/>
+       <br/>
+<b>Version:</b> 1    <br/>
+<b>Date:</b> January 2008  <br/>
+<b>State:</b> Initial Release  <br/><br/>
+</div><br/>
+<center>
+<style>
+		.buttons {border:none; padding: 3px 0 3px 0;}
+	</style>
+<a href="http://www.ninjoomla.com" target="_self"><img  class="buttons" src="../modules/mod_ninjabotcontrol/ninjabotcontrol/ninja/ninjoomla.png" alt="Visit Ninjoomla" title="Visit Ninjoomla"/></a>
+<a href="http://jcd-a.org" target="_self"><img class="buttons" src="../modules/mod_ninjabotcontrol/ninjabotcontrol/ninja/jcda.png" alt="Ninjoomla is a JCDA Member" title="Ninjoomla is a JCDA Member"/></a>
+<a href="http://www.spreadfirefox.com/" target="_self"><img class="buttons" src="../modules/mod_ninjabotcontrol/ninjabotcontrol/ninja/firefox2.gif" alt="Get Firefox for a better internet experience" title="Get Firefox for a better internet experience"/></a>
+<a href="http://validator.w3.org/check?uri=referer" target="_self"><img  class="buttons" src="../modules/mod_ninjabotcontrol/ninjabotcontrol/ninja/validation_xhtml.png" alt="Valid XHTML Transitional" title="Valid XHTML Transitional"/></a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_self"><img  class="buttons" src="../modules/mod_ninjabotcontrol/ninjabotcontrol/ninja/validation_css.png" alt="Valid CSS" title="Valid CSS"/></a><br/><br/><br/>
+</center>]]>  </description>
+     	<files>
+  		<filename module="mod_ninjabotcontrol">mod_ninjabotcontrol.php</filename>
+		<filename>ninjabotcontrol/ninja/logo.jpg</filename>
+		<filename>ninjabotcontrol/ninja/index.html</filename>
+		<filename>ninjabotcontrol/ninja/ninjoomla.png</filename>
+	    <filename>ninjabotcontrol/ninja/firefox2.gif</filename>
+	    <filename>ninjabotcontrol/ninja/jcda.png</filename>
+   	    <filename>ninjabotcontrol/ninja/validation_xhtml.png</filename>
+   	     <filename>ninjabotcontrol/ninja/validation_css.png</filename>
+     <filename>ninjabotcontrol/ninja/info.png</filename>
+     <filename>ninjabotcontrol/ninja/change.png</filename>
+     <filename>ninjabotcontrol/ninja/inst.png</filename>
+     <filename>ninjabotcontrol/ninja/tab.gif</filename>
+      <filename>ninjabotcontrol/ninja/ninja.js</filename>
+	</files>
+	<params>
+     <param name="robots" type="list" default="GOOGLEBOT" label="Robot to Block:" description="Select the ROBOT you want to block (it can be: all, GOOGLE, ASK, LIVE, YAHOO)">
+			<option value="GOOGLEBOT">GOOGLE Bot</option>
+			<option value="SLURP">YAHOO Bot</option>
+			<option value="MSNBOT">LIVE/MSN Bot</option>
+			<option value="TEOMA">ASK Bot</option>
+		   <option value="ROBOTS">ALL Bots</option>
+    	</param>
+
+     <param name="robotse1" type="list" default="NOINDEX" label="Elements to Block 1:" description="Select an element to block.">
+    			<option value="NOINDEX">PAGE</option>
+			<option value="NOFOLLOW">FOLLOW LINKS</option>
+			<option value="NOARCHIVE">CACHED PAGES</option>
+			<option value="NOIMAGEINDEX">IMAGES</option>
+        	</param>
+
+    	<param name="robotse2" type="list" default="" label="Elements to Block 2:" description="Select another element to block. If you dont want to select another one select 'EMPTY'">
+    	<option value="">EMPTY</option>
+        <option value=", NOINDEX">PAGE</option>
+			<option value=", NOFOLLOW">FOLLOW LINKS</option>
+			<option value=", NOARCHIVE">CACHED PAGES</option>
+			<option value=", NOIMAGEINDEX">IMAGES</option>
+            </param>
+      <param name="forceValid" type="radio" default="1" label="XHTML/CSS Validation" description="Due to limitations in Mambo and Joomla we must use certain php functions to have the module output valid XHTML and CSS. Bugs in these functions can cause certain specific versions of PHP to crash, producing a white content-less screen. Please switch validation off if this happens to you." >
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</param>
+            <param name="robotse3" type="list" default="" label="Elements to Block 3:" description="Select another element to block. If you dont want to select another one select 'EMPTY'">
+    	<option value="">EMPTY</option>
+        <option value=", NOINDEX">PAGE</option>
+			<option value=", NOFOLLOW">FOLLOW LINKS</option>
+			<option value=", NOARCHIVE">CACHED PAGES</option>
+			<option value=", NOIMAGEINDEX">IMAGES</option>
+            </param>
+
+            <param name="robotse4" type="list" default="" label="Elements to Block 4:" description="Select another element to block. If you dont want to select another one select 'EMPTY'">
+    	<option value="">EMPTY</option>
+        <option value=", NOINDEX">PAGE</option>
+			<option value=", NOFOLLOW">FOLLOW LINKS</option>
+			<option value=", NOARCHIVE">CACHED PAGES</option>
+			<option value=", NOIMAGEINDEX">IMAGES</option>
+            </param>
+            			</params>
+</install>
